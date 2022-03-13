@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[Title is not matching]]>
+      <![CDATA[element is displayed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13438" started-at="2022-03-13T19:13:08Z" finished-at="2022-03-13T19:13:21Z">
+  <suite name="Default suite" duration-ms="17043" started-at="2022-03-13T20:03:48Z" finished-at="2022-03-13T20:04:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13438" started-at="2022-03-13T19:13:08Z" finished-at="2022-03-13T19:13:21Z">
+    <test name="Default test" duration-ms="17043" started-at="2022-03-13T20:03:48Z" finished-at="2022-03-13T20:04:05Z">
       <class name="script.Test1">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@6340e5f0]" name="openApp" is-config="true" duration-ms="12431" started-at="2022-03-13T19:13:08Z" finished-at="2022-03-13T19:13:20Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@2bdd8394]" name="openApp" is-config="true" duration-ms="12212" started-at="2022-03-13T20:03:48Z" finished-at="2022-03-13T20:04:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="FAIL" signature="testA()[pri:0, instance:script.Test1@6340e5f0]" name="testA" duration-ms="722" started-at="2022-03-13T19:13:20Z" finished-at="2022-03-13T19:13:21Z">
+        <test-method status="FAIL" signature="testA()[pri:0, instance:script.Test1@2bdd8394]" name="testA" duration-ms="567" started-at="2022-03-13T20:04:00Z" finished-at="2022-03-13T20:04:01Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -58,11 +58,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Title is not matching]]>
+              <![CDATA[element is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@6340e5f0]" name="closeApp" is-config="true" duration-ms="221" started-at="2022-03-13T19:13:21Z" finished-at="2022-03-13T19:13:21Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@2bdd8394]" name="closeApp" is-config="true" duration-ms="4205" started-at="2022-03-13T20:04:01Z" finished-at="2022-03-13T20:04:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->

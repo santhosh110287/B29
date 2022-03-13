@@ -48,7 +48,7 @@ public class Test1 extends BaseTest{
 //		Reporter.log(v2,true);
 		
 		EnterTimeTrackPage e=new EnterTimeTrackPage(driver);
-		boolean result = e.verifyTitle(wait, "Enter");
+		boolean result = e.verifyHomePageIsDisplayed(wait, "Enter");
 		Assert.assertEquals(result, true);
 //		Assert.assertTrue(result);//this is same as above
 	}

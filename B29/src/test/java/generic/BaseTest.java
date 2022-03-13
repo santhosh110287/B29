@@ -65,7 +65,7 @@ public class BaseTest {
 		driver.close();
 	}
 	
-	public String getValue(String key) {
+	public static String getValue(String key) {
 
 		String value="";
 		Properties p =new Properties();
