@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[http://www.google.com]]>
+      <![CDATA[https://demo.actitime.com/login.do]]>
     </line>
     <line>
-      <![CDATA[Google]]>
+      <![CDATA[actiTIME - Login]]>
     </line>
     <line>
       <![CDATA[AppaAmma]]>
@@ -14,22 +14,22 @@
       <![CDATA[admin]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="13824" started-at="2022-03-12T17:57:45Z" finished-at="2022-03-12T17:57:59Z">
+  <suite name="Default suite" duration-ms="15858" started-at="2022-03-13T11:00:13Z" finished-at="2022-03-13T11:00:29Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="13824" started-at="2022-03-12T17:57:45Z" finished-at="2022-03-12T17:57:59Z">
+    <test name="Default test" duration-ms="15858" started-at="2022-03-13T11:00:13Z" finished-at="2022-03-13T11:00:29Z">
       <class name="script.Test1">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@368247b9]" name="openApp" is-config="true" duration-ms="7806" started-at="2022-03-12T17:57:45Z" finished-at="2022-03-12T17:57:53Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@6340e5f0]" name="openApp" is-config="true" duration-ms="13756" started-at="2022-03-13T11:00:14Z" finished-at="2022-03-13T11:00:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@368247b9]" name="testA" duration-ms="1678" started-at="2022-03-12T17:57:53Z" finished-at="2022-03-12T17:57:55Z">
+        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@6340e5f0]" name="testA" duration-ms="1786" started-at="2022-03-13T11:00:27Z" finished-at="2022-03-13T11:00:29Z">
           <reporter-output>
             <line>
-              <![CDATA[http://www.google.com]]>
+              <![CDATA[https://demo.actitime.com/login.do]]>
             </line>
             <line>
-              <![CDATA[Google]]>
+              <![CDATA[actiTIME - Login]]>
             </line>
             <line>
               <![CDATA[AppaAmma]]>
@@ -39,11 +39,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@368247b9]" name="closeApp" is-config="true" duration-ms="4276" started-at="2022-03-12T17:57:55Z" finished-at="2022-03-12T17:57:59Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@6340e5f0]" name="closeApp" is-config="true" duration-ms="269" started-at="2022-03-13T11:00:29Z" finished-at="2022-03-13T11:00:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- script.Test1 -->
-    </test> <!-- Regression -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
