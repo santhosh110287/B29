@@ -1,9 +1,8 @@
 <suite name="Suite">
-  <test name="Regression">
+  <test thread-count="5" name="Regression">
+  <!-- Run all the classes present in the package, here instead of classes we have changed to packages, and class to  -->
     <packages>
-      <package name="script" />
+      <package name="script"/>
     </packages>
-  </test> 
+  </test>
 </suite> 
-
-<!-- Run all the classes present in the package, here instead of classes we have changed to packages, and class to package -->

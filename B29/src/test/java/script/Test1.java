@@ -1,13 +1,14 @@
 //03-03-2022
+
 //Here we will have multiple test
 //How do we run multiple test in a single shot
 //using TestNg
 //how to create TestNg
 //right click on Test1.java, go to TestNG, convert to testng, and click on finish, then we will get one testng.xml
-//The job of pom.xml is to download and update the jar file
-//The job of testng.xml is to run multiple tests
+//The job of pom.xml is to download and update the jar file. 
+//The job of testng.xml is to run multiple tests.. first update and run it..
 //instead of running these two xml file seperately, we can use one plugin
-// plugin name is surefire plugin
+// plugin name is surefire plugin.. advantage of this, when we run pom file, it will update jar file and trigger testng.xml file.
 
 /*
  * Create Generic package

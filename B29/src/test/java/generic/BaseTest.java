@@ -1,5 +1,4 @@
 //03-03-2022
-
 //This package will do
 //Before the method: Open the browser, enter URL, and doing some other settings, 
 //After method will do: browser will close
