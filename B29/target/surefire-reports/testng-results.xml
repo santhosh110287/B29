@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="141" started-at="2022-03-12T17:59:06Z" finished-at="2022-03-12T17:59:06Z">
+  <suite name="Suite" duration-ms="139" started-at="2022-03-13T11:31:17Z" finished-at="2022-03-13T11:31:17Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="141" started-at="2022-03-12T17:59:06Z" finished-at="2022-03-12T17:59:06Z">
+    <test name="Regression" duration-ms="139" started-at="2022-03-13T11:31:17Z" finished-at="2022-03-13T11:31:17Z">
       <class name="script.Test1">
-        <test-method status="FAIL" signature="openApp()[pri:0, instance:script.Test1@52af26ee]" name="openApp" is-config="true" duration-ms="81" started-at="2022-03-12T17:59:06Z" finished-at="2022-03-12T17:59:06Z">
+        <test-method status="FAIL" signature="openApp()[pri:0, instance:script.Test1@52af26ee]" name="openApp" is-config="true" duration-ms="94" started-at="2022-03-13T11:31:17Z" finished-at="2022-03-13T11:31:17Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[com/google/common/collect/ImmutableMap]]>
@@ -64,7 +64,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="testA()[pri:0, instance:script.Test1@52af26ee]" name="testA" duration-ms="0" started-at="2022-03-12T17:59:06Z" finished-at="2022-03-12T17:59:06Z">
+        <test-method status="SKIP" signature="testA()[pri:0, instance:script.Test1@52af26ee]" name="testA" duration-ms="0" started-at="2022-03-13T11:31:17Z" finished-at="2022-03-13T11:31:17Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[com/google/common/collect/ImmutableMap]]>
@@ -121,7 +121,7 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="SKIP" signature="closeApp()[pri:0, instance:script.Test1@52af26ee]" name="closeApp" is-config="true" duration-ms="0" started-at="2022-03-12T17:59:06Z" finished-at="2022-03-12T17:59:06Z">
+        <test-method status="SKIP" signature="closeApp()[pri:0, instance:script.Test1@52af26ee]" name="closeApp" is-config="true" duration-ms="0" started-at="2022-03-13T11:31:17Z" finished-at="2022-03-13T11:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->

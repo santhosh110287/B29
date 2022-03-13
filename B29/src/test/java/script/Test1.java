@@ -29,18 +29,20 @@ public class Test1 extends BaseTest{
 	public void testA() {
 		LoginPage l=new LoginPage(driver);
 		l.setUserName("Santhosh");
-		
-		String v=getValue("URL");
-		Reporter.log(v,true);
-		
-		String title=driver.getTitle();
-		Reporter.log(title,true);
-		
-		String v1=Excel.getData("./Data/Book3.xlsx", "sheet1", 0, 0);
-		Reporter.log(v1,true);
-		
-		String v2=Excel.getData("./Data/Book3.xlsx", "sheet3", 1, "Username");
-		Reporter.log(v2,true);
+		l.setPassword("mangager");
+		l.clickLoginButtion();
+//		
+//		String v=getValue("URL");
+//		Reporter.log(v,true);
+//		
+//		String title=driver.getTitle();
+//		Reporter.log(title,true);
+//		
+//		String v1=Excel.getData("./Data/Book3.xlsx", "sheet1", 0, 0);
+//		Reporter.log(v1,true);
+//		
+//		String v2=Excel.getData("./Data/Book3.xlsx", "sheet3", 1, "Username");
+//		Reporter.log(v2,true);
 		
 	}
 

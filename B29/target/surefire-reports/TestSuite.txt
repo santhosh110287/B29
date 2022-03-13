@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 2.364 s <<< FAILURE! - in TestSuite
-script.Test1.openApp  Time elapsed: 2.177 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 2.29 s <<< FAILURE! - in TestSuite
+script.Test1.openApp  Time elapsed: 2.103 s  <<< FAILURE!
 java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
 Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableMap
 
