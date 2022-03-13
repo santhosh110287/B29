@@ -19,20 +19,22 @@
  * run Test1.java
  */
 package script;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import generic.BaseTest;
 import generic.Excel;
+import page.EnterTimeTrackPage;
 import page.LoginPage;
 
 public class Test1 extends BaseTest{
 	@Test
 	public void testA() {
 		LoginPage l=new LoginPage(driver);
-		l.setUserName("Santhosh");
-		l.setPassword("mangager");
+		l.setUserName("admin");
+		l.setPassword("manager");
 		l.clickLoginButtion();
-//		
+//
 //		String v=getValue("URL");
 //		Reporter.log(v,true);
 //		
@@ -45,6 +47,10 @@ public class Test1 extends BaseTest{
 //		String v2=Excel.getData("./Data/Book3.xlsx", "sheet3", 1, "Username");
 //		Reporter.log(v2,true);
 		
+		EnterTimeTrackPage e=new EnterTimeTrackPage(driver);
+		boolean result = e.verifyTitle(wait, "Enter");
+		Assert.assertEquals(result, true);
+//		Assert.assertTrue(result);//this is same as above
 	}
 
 }
