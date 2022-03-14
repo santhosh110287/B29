@@ -33,6 +33,7 @@ public class BaseTest {
 
 	public WebDriverWait wait;
 	public WebDriver driver;//declared, this is global driver
+	public static String config_path="./config.properties";
 
 	static {
 		WebDriverManager.chromedriver().setup();
