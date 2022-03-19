@@ -29,11 +29,11 @@ import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseTest {
+public class BaseTest implements IAutomation{
 
 	public WebDriverWait wait;
 	public WebDriver driver;//declared, this is global driver
-	public static String config_path="./config.properties";
+	//public static final String config_path="./config.properties";
 
 	static {
 		WebDriverManager.chromedriver().setup();
@@ -72,7 +72,7 @@ public class BaseTest {
 		Properties p =new Properties();
 		try {
 			//To read a content from Properties file..which is present in config.properties
-			p.load(new FileInputStream("./config.properties"));
+			p.load(new FileInputStream(CONFIG_PATH));
 			value = p.getProperty(key);
 		}
 		catch(Exception e) {
