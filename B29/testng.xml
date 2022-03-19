@@ -1,5 +1,5 @@
 <suite name="Suite">
-  <test thread-count="5" name="Regression">
+  <test name="Regression">
   <!-- Run all the classes present in the package, here instead of classes we have changed to packages, and class to  -->
     <packages>
       <package name="script"/>
