@@ -30,7 +30,7 @@ import page.EnterTimeTrackPage;
 import page.LoginPage;
 
 public class Test1 extends BaseTest{
-	@Test
+	@Test(enabled=false)
 	public void testA() {
 		LoginPage l=new LoginPage(driver);
 		l.setUserName("admin");

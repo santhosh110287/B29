@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]">
-  <test thread-count="5" verbose="0" name="Regression(failed)">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="RegressionFF(failed)" parallel="tests">
     <classes>
+      <class name="script.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.ValidLogin -->
       <class name="script.InvalidLogin">
         <methods>
           <include name="testInvalidLogin"/>
@@ -17,6 +24,10 @@
           <include name="closeApp"/>
         </methods>
       </class> <!-- script.Test1 -->
+    </classes>
+  </test> <!-- RegressionFF(failed) -->
+  <test thread-count="5" verbose="0" name="RegressionGC(failed)" parallel="tests">
+    <classes>
       <class name="script.ValidLogin">
         <methods>
           <include name="testValidLogin"/>
@@ -24,6 +35,20 @@
           <include name="closeApp"/>
         </methods>
       </class> <!-- script.ValidLogin -->
+      <class name="script.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.Test1">
+        <methods>
+          <include name="openApp"/>
+          <include name="testA"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.Test1 -->
     </classes>
-  </test> <!-- Regression(failed) -->
+  </test> <!-- RegressionGC(failed) -->
 </suite> <!-- Failed suite [Suite] -->

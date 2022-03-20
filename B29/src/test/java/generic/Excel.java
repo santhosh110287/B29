@@ -27,6 +27,7 @@ public class Excel {
 		{
 			e.printStackTrace();
 		}
+		System.out.println("Excel:*"+value);
 		return value;
 	}
 

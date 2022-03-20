@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="RegressionGC(failed)" parallel="tests">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="RegressionGC(failed)">
     <classes>
       <class name="script.InvalidLogin">
         <methods>
@@ -17,16 +17,9 @@
           <include name="closeApp"/>
         </methods>
       </class> <!-- script.ValidLogin -->
-      <class name="script.Test1">
-        <methods>
-          <include name="openApp"/>
-          <include name="testA"/>
-          <include name="closeApp"/>
-        </methods>
-      </class> <!-- script.Test1 -->
     </classes>
   </test> <!-- RegressionGC(failed) -->
-  <test thread-count="5" name="RegressionFF(failed)" parallel="tests">
+  <test thread-count="5" name="RegressionFF(failed)">
     <classes>
       <class name="script.InvalidLogin">
         <methods>
@@ -42,13 +35,6 @@
           <include name="closeApp"/>
         </methods>
       </class> <!-- script.ValidLogin -->
-      <class name="script.Test1">
-        <methods>
-          <include name="openApp"/>
-          <include name="testA"/>
-          <include name="closeApp"/>
-        </methods>
-      </class> <!-- script.Test1 -->
     </classes>
   </test> <!-- RegressionFF(failed) -->
 </suite> <!-- Failed suite [Suite] -->

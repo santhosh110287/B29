@@ -23,9 +23,9 @@ public class EnterTimeTrackPage {
 		PageFactory.initElements(driver, this);
 	}
 	public boolean verifyHomePageIsDisplayed(WebDriverWait wait,String expectedTitle) {
-		//		//return WebGeneric.verifyTitle(wait, expectedTitle);
+		return WebGeneric.verifyTitle(wait, expectedTitle);
 		//		return WebGeneric.verifyUrl(wait, expectedUrl);
-		return WebGeneric.verifyElementDisplayed(wait, logoutLink);
+		//return WebGeneric.verifyElementDisplayed(wait, logoutLink);
 		
 	
 	}

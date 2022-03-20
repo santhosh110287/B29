@@ -1,4 +1,4 @@
-<suite name="Suite" parallel="tests">
+<suite name="Suite" parallel="none">
   <test name="RegressionGC">
    <paramter name="grid" value="no"/>
   <paramter name="remoteAddr" value="http://localhost:4444"/>

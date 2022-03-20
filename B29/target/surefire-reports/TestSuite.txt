@@ -1,14 +1,23 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 3.558 s <<< FAILURE! - in TestSuite
-script.Test1.openApp  Time elapsed: 3.214 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableSet
-Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableSet
+Tests run: 18, Failures: 6, Errors: 0, Skipped: 12, Time elapsed: 3.04 s <<< FAILURE! - in TestSuite
+script.Test1.openApp[, , ](0)  Time elapsed: 2.518 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
 
-script.ValidLogin.openApp  Time elapsed: 3.214 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.ErrorCodes
+script.Test1.openApp[, , ](0)  Time elapsed: 2.518 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
+Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableMap
 
-script.InvalidLogin.openApp  Time elapsed: 3.214 s  <<< FAILURE!
-java.lang.NoClassDefFoundError: Could not initialize class org.openqa.selenium.remote.ErrorCodes
+script.ValidLogin.openApp[, , ](0)  Time elapsed: 2.612 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
+
+script.ValidLogin.openApp[, , ](0)  Time elapsed: 2.659 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
+
+script.InvalidLogin.openApp[, , ](0)  Time elapsed: 2.739 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
+
+script.InvalidLogin.openApp[, , ](0)  Time elapsed: 2.785 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
 
