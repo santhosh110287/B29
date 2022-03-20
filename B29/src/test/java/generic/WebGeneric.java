@@ -45,7 +45,7 @@ public class WebGeneric {
 		}
 		catch(Exception e)
 		{
-			Reporter.log("element is displayed",true);
+			Reporter.log("element is not displayed",true);
 			return false;
 		}
 

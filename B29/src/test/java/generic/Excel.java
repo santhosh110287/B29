@@ -43,13 +43,15 @@ public class Excel {
 			System.out.println(cc);
 
 			//To print all, use for loop
+			//If the cell is blank in excel it will go to catch block.
 			for (int i = 0; i < cc; i++) {
 				String k = wb.getSheet(sheet).getRow(0).getCell(i).toString();
 				String v="";
 				try {
 					v = wb.getSheet(sheet).getRow(row).getCell(i).toString();
 				}
-				catch (Exception e) {
+				catch (Exception e) 
+				{
 					
 				}
 				map.put(k, v);

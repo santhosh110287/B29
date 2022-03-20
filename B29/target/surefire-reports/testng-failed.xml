@@ -3,6 +3,13 @@
 <suite verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Regression(failed)">
     <classes>
+      <class name="script.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.InvalidLogin -->
       <class name="script.Test1">
         <methods>
           <include name="openApp"/>

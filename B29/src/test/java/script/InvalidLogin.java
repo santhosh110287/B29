@@ -1,16 +1,14 @@
 //09-03-2022
-//Data driven testing: Using Excel or using data provider
+//DDT(Data driven testing): Using Excel or using data provider
 //Testing the application with multiple set
 //Created Testcase-2 
 package script;
 
 import java.util.function.Supplier;
-
+import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import generic.BaseTest;
 import generic.Excel;
-import graphql.Assert;
 import page.LoginPage;
 
 public class InvalidLogin extends BaseTest {
@@ -37,6 +35,7 @@ public class InvalidLogin extends BaseTest {
 			//		4.Verify that error msg is displayed
 			boolean result = l.verifyErrMsgIsDisplayed(wait);
 			Assert.assertTrue(result,failMsg);
+			//Assert.assertTrue(result);
 			Thread.sleep(1000);
 		}
 
