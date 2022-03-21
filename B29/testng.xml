@@ -1,6 +1,6 @@
 <suite name="Suite" parallel="none">
   <test name="RegressionGC">
-   <paramter name="grid" value="no"/>
+   <paramter name="grid" value="yes"/>
   <paramter name="remoteAddr" value="http://localhost:4444"/>
   <paramter name="browserName" value="chrome"/>
   <!-- Run all the classes present in the package, here instead of classes we have changed to packages, and class to  -->
@@ -10,7 +10,7 @@
   </test>
   
   <test name="RegressionFF">
-	   <paramter name="grid" value="no"/>
+	   <paramter name="grid" value="yes"/>
 	  <paramter name="remoteAddr" value="http://localhost:4444"/>
 	  <paramter name="browserName" value="firefox"/>
 	  <!-- Run all the classes present in the package, here instead of classes we have changed to packages, and class to  -->
